@@ -1,0 +1,308 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+
+/* social media */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: 0.6s ease;
+  color: #65c8d0;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #65c8d0;
+  color: white;
+}
+
+.facebook {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.linkedin {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.youtube {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+/* social media */
+
+
+/* hover effect images */
+.logo_mmd img:hover {
+}
+
+img.jwavatar:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+img.jwwave:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+img.jwcontact:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* hover effect images */
+
+
+/* front page */
+header {
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../montanas.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.logo_mmd img {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20%;
+}
+/* front page */
+
+
+/* nav bar */
+nav {
+  width: 100%;
+  height: 4em;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 92%;
+  text-align: center;
+
+  padding-top: 15px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #65c8d0;
+  padding: 5px 20px;
+  border: 2px solid #65c8d0;
+  transition: 0.6s ease;
+  font-size: 1em;
+  font-family: arial;
+
+}
+
+ul li a:hover {
+  background-color: #65c8d0;
+  color: white;
+}
+/* nav bar */
+
+
+/* title og text */
+.title {
+  padding-top: 20px;
+  font-family: arial;
+}
+
+.title h1 {
+  color: #65c8d0;
+  font-size: 3.5em;
+}
+
+.text {
+  font-family: helvetica;
+}
+
+.text h2 {
+  color: #fff;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #fff;
+  font-size: .8em;
+}
+
+h4 {
+  color: #f6f6f6;
+  font-size: 1em;
+  font-family: helvetica;
+}
+
+p {
+  color: #f6f6f6;
+  font-size: .9em;
+  font-family: helvetica;
+}
+/* title og text */
+
+
+/* om mig kategori */
+.en {
+  background: linear-gradient(to top right, #595959 0%, #666666 100%);
+  background-position: center;
+  text-align: center;
+  height: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#infocolumns {
+  text-align: left;
+}
+
+.info1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 220px;
+}
+
+.info2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  border-left: 2px solid #65c8d0;
+  border-right: 2px solid #65c8d0;
+}
+
+.info3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 220px;
+}
+
+img.jwavatar {
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.jwavatar {
+  background-color: #65c8d0;
+}
+/* om mig kategori */
+
+
+/* parallax1 */
+.parallax1 {
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../jwhs.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* parallax1 */
+
+
+/* portfolio kategori */
+.to {
+  background: linear-gradient(to top right, #595959 0%, #666666 100%);
+  background-position: center;
+  text-align: center;
+  height: 800px;
+}
+
+img.jwwave {
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.jwwave {
+  background-color: #65c8d0;
+}
+/* portfolio kategori */
+
+
+/* portfolio content style */
+.content {
+    background-color: none;
+}
+/* fem kolonner */
+.columndigitalart {
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+/* portfolio content style */
+
+
+/* parallax2 */
+.parallax2 {
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../jump.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* parallax2 */
+
+
+/* kontakt kategori */
+.tre {
+  background: linear-gradient(to top right, #595959 0%, #666666 100%);
+  background-position: center;
+  text-align: center;
+  height: 100%;
+}
+
+img.jwcontact {
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.jwcontact {
+  background-color: #65c8d0;
+}
+
+.kontaktinfo {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 2px;
+  column-rule-color: #65c8d0;
+}
+
+.tlf {
+  text-align: right;
+}
+
+.mail {
+  text-align: left;
+}
+/* kontakt kategori */
